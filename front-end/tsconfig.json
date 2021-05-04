@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src", // Orienta o typescript que os artigos importados serão da pasta src
     "target": "es5",
     "lib": [
       "dom",
