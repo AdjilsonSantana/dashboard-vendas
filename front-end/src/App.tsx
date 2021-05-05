@@ -12,11 +12,13 @@ function App() {
       <div className="container">
 
         <h1 className="text-primary">Dashboard de Vendas</h1>
+
         <div className="row py-3">
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Percentagem de sucesso (%)</h5>
             <BarChart/>
           </div>
+          
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Percentagem de sucesso (%)</h5>
             <DonuChart/>
@@ -29,7 +31,6 @@ function App() {
         </div>
         
         <DataTable/>
-
       </div>
       
       <Footer/>
